@@ -570,12 +570,13 @@ input {
 }
 
 /*=============== PLACES ===============*/
+
 .place__card, .place__img {
   height: 230px;
 }
 
 .place__container {
-  grid-template-columns: repeat(2, max-content);
+  
   justify-content: center;
 }
 
@@ -808,7 +809,7 @@ input {
 /* For small devices */
 @media screen and (max-width: 340px) {
   .place__container {
-    grid-template-columns: max-content;
+    grid-template-columns: repeat(1, max-content);
     justify-content: center;
   }
   .experience__content {
@@ -838,7 +839,7 @@ input {
     justify-content: center;
   }
   .place__container {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(2, max-content);
   }
   .subscribe__form {
     width: 470px;
@@ -1018,6 +1019,7 @@ input {
     padding: 0 8rem;
   }
   .place__container {
+    grid-template-columns: repeat(3, max-content);
     gap: 3rem 2rem;
   }
   .place__card, .place__img {
