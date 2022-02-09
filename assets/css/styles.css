@@ -583,7 +583,6 @@ input {
 .place__card {
   position: relative;
   overflow: var(--img-hidden);
-  justify-content: center;
 }
 
 .place__card:hover .place__img {
